@@ -158,7 +158,6 @@ class UWSGI:
 
     def install(self):
         paths = []
-        #import pdb;pdb.set_trace()
         if not os.path.exists(os.path.join(self.buildout['buildout']['bin-directory'], self.name)):
             # Download uWSGI.
             download_path = self.download_release()

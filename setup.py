@@ -19,7 +19,7 @@ setup(
     'Programming Language :: Python :: 2.6',
     'Programming Language :: Python :: 2.7',
     ],      
-    package_dir={'': 'eqb/recipe/uwsgi'},
+    #package_dir={'': 'eqb/recipe/uwsgi'},
     packages=find_packages('eqb/recipe/uwsgi'),
     keywords='',
     author='Philip Kalinsky',
